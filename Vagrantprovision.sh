@@ -7,7 +7,7 @@ echo "set -o vi" >> $TERM_STARTUP
 echo -e "\n# Set default g++ compile standard" >> $TERM_STARTUP
 echo "alias g++=\"g++ -std=c++14\"" >> $TERM_STARTUP
 echo -e "\n# Set starting directory to C++ programs directory" >> $TERM_STARTUP
-echo "cd /vagrant/programs" >> $TERM_STARTUP
+echo "cd /vagrant/problems" >> $TERM_STARTUP
 echo "Terminal defaults set"
 
 # Install required modules
